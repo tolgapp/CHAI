@@ -4,9 +4,9 @@ import "../sass/Home.scss";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <Navbar />
-      <div>CHAI.</div> 
+      <div className="chai">HELLO <br />CHAI.</div> 
       <Footer />
     </div>
   );
