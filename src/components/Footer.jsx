@@ -1,9 +1,13 @@
 import "../sass/Footer.scss";
+import FooterLinks from "../components/FooterLinks.jsx"
 
 const Footer = () => {
   return (
-    <div className="footer">Footer</div>
+    <div className="footer">
+
+      <FooterLinks />
+    </div>
   )
 }
 
-export default Footer
+export default Footer;
