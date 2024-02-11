@@ -1,0 +1,41 @@
+.HomeData {
+  margin: 4rem auto;
+  .image-container {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    transform: translateX(3rem);
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .chai {
+    z-index: 1;
+    color: #fff;
+    font-size: 15rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .slogan {
+    font-size: 3rem;
+    margin-top: -4rem;
+  }
+  .chai-latte {
+    z-index: 0;
+    height: 30rem;
+    margin-left: -10rem;
+    animation: mover 1.4s infinite alternate;
+    transform: rotate(-2deg);
+  }
+  @keyframes mover {
+    0% {
+      transform: translateY(-4rem) rotate();
+    }
+    100% {
+      transform: translateY(-0.1rem);
+    }
+}
+}
+  

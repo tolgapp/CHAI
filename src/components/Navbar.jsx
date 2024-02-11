@@ -4,7 +4,7 @@ import "../sass/Navbar.scss";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <h1>CHAI.</h1>
+      <h1 className="chai-nav">CHAI.</h1>
       <div className="searchbar">
         <input type="text" className="input" placeholder="What is Chai?"/>
         <input type="submit" value={"Search"} className="searchbutton" />

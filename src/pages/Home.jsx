@@ -1,12 +1,17 @@
 import Footer from "../components/Footer";
+import HomeData from "../components/HomeData";
 import Navbar from "../components/Navbar";
+import Info from "../components/Info";
 import "../sass/Home.scss";
 
 const Home = () => {
+
+
   return (
     <div className="home">
       <Navbar />
-      <div className="chai">HELLO <br />CHAI.</div> 
+      <HomeData />
+      <Info />
       <Footer />
     </div>
   );
