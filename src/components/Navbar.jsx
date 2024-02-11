@@ -5,10 +5,10 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <h1 className="chai-nav">CHAI.</h1>
-      <div className="searchbar">
+      {/* <div className="searchbar">
         <input type="text" className="input" placeholder="What is Chai?"/>
         <input type="submit" value={"Search"} className="searchbutton" />
-      </div>
+      </div> */}
       <div className="nav-links">
         <Link to={"/home"}>HOME</Link>
         <Link to={"/info"}>INFO</Link>

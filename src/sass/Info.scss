@@ -1,14 +1,16 @@
 .info {
     display: flex;
-    justify-content: space-around;
-    margin-top: 15rem;
+    justify-content: space-evenly;
+    margin: 15rem;
+    place-items: center;
     section {
         display: flex;
+        transform: translateX(8rem);
         .chai12 {
             z-index: 2;
             height: 22rem;
             border-radius: 1.4rem;
-            transform: translateX(4rem) translateY(-4.2rem);
+            transform: translateX(3.5rem) translateY(-4.2rem) rotate(-8deg);
         }
         .chai11 {
             z-index: 1;
@@ -16,10 +18,21 @@
             border-radius: 1.4rem;
             transform: translateX(-1rem);
         }
+        .freshchai {
+            z-index: 3;
+            height: 20rem;
+            border-radius: 1.4rem;
+            transform: translateX(-35rem) translateY(14rem) rotate(4deg);
+        }
     }
     article {
+        display: flex;
+        place-items: center;
         .chai-info {
-            font-size: 2.2rem;
+            width: 42vw;
+            transform: translateX(-10rem);
+            font-size: 2.8rem;
+            word-break: break-word;
         }
     }
     
