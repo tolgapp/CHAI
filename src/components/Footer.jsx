@@ -5,8 +5,10 @@ import FooterLinks from "../components/FooterLinks.jsx"
 const Footer = () => {
   return (
     <div className="footer">
-
-      <FooterLinks header={"CHAI."} links={links}/>
+      <FooterLinks header={"Info & Help"} links={links}/>
+      <FooterLinks header={"Other Data"} links={links}/>
+      <FooterLinks header={"Other Data"} links={links}/>
+      <FooterLinks header={"Other Data"} links={links}/>
     </div>
   )
 }

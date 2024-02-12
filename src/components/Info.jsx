@@ -10,7 +10,7 @@ const Info = () => {
         <img className="freshchai" src="/images/freshchai.jpeg" alt="chai latte picture" />
       </section>
       <article>
-        <h3 className="chai-info"> Enjoy a chai latte - our blend of black tea with aromatic spices made with steamed milk and honey.</h3>
+        <h3 className="chai-info">Enjoy a chai latte - our blend of black tea with aromatic spices made with steamed milk and honey.</h3>
       </article>
     </div>
   )

@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import "../sass/Footer.scss";
 
 const FooterLinks = ({header, links}) => {
   return (
-    <div>
+    <div className="footerDiv">
       <h2 className="footerHeader">{header}</h2>
       {links.map((elt) => {
         return (

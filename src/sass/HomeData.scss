@@ -5,7 +5,6 @@
     display: flex;
     justify-content: center;
     place-items: center;
-    transform: translateX(3rem);
   }
   .text-container {
     display: flex;
@@ -57,7 +56,12 @@
       margin-top: -1.4rem;
     }
     .chai-latte {
-      display: none;
+      position: absolute;
+      z-index: -1;
+      height: 27rem;
+      margin-left: -10rem;
+      animation: none;
+      transform: rotate(2deg) translateX(10rem);
     }
   }
 }

@@ -1,2 +1,26 @@
-.footer {}
-
+.footer {
+  display: flex;
+  background-color: antiquewhite;
+  border-top-left-radius: 0.9rem;
+  border-top-right-radius: 0.9rem;
+  height: 30vh;
+  .footerDiv {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: left;
+    padding: 5rem;
+    .footerHeader {
+      font-size: 1.4rem;
+      color: rgb(212, 135, 99);
+    }
+    .footerSection {
+      padding-top: 2rem;
+      a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+      }
+    }
+  }
+}
