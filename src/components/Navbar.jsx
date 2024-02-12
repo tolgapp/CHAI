@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 import "../sass/Navbar.scss";
+import MobileNav from "./MobileNav";
 
 const Navbar = () => {
   return (
+    <>
     <div className="navbar">
       <h1 className="chai-nav">CHAI.</h1>
       {/* <div className="searchbar">
@@ -15,6 +17,8 @@ const Navbar = () => {
         <Link to={"/"}>WHY CHAI?</Link>
       </div>
     </div>
+    <MobileNav />
+    </>
   );
 };
 
