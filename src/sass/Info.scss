@@ -1,28 +1,31 @@
 .info {
     display: flex;
     justify-content: space-evenly;
-    margin: 15rem;
+    margin: 15rem auto;
     place-items: center;
+    height: 35vh;
+    width: 100%;
+    background-color: #96725939;
     section {
         display: flex;
         transform: translateX(8rem);
         .chai12 {
             z-index: 2;
-            height: 22rem;
+            height: 18rem;
             border-radius: 1.4rem;
-            transform: translateX(3.5rem) translateY(-4.2rem) rotate(-8deg);
+            transform: translateX(-2rem) translateY(-5.4rem) rotate(-8deg);
         }
         .chai11 {
             z-index: 1;
-            height: 20rem;
+            height: 15rem;
             border-radius: 1.4rem;
-            transform: translateX(-1rem);
+            transform: translateX(-5rem);
         }
         .freshchai {
             z-index: 3;
-            height: 20rem;
+            height: 17rem;
             border-radius: 1.4rem;
-            transform: translateX(-35rem) translateY(14rem) rotate(4deg);
+            transform: translateX(-33rem) translateY(10rem) rotate(4deg);
         }
     }
     article {
@@ -30,12 +33,50 @@
         place-items: center;
         .chai-info {
             width: 42vw;
-            transform: translateX(-10rem);
-            font-size: 2.8rem;
+            transform: translateX(-6rem);
+            font-size: 2.2rem;
+            text-align: left;
             word-break: break-word;
         }
     }
     
 }
 
+
+@media only screen and (max-width: 600px) {
+    .info {
+        flex-direction: column;
+        justify-content:flex-start;
+        background-color: transparent;
+        height: 100vh;
+        section {
+            flex-direction: column;
+            place-items: center;
+            transform: translateX(0);
+            .chai12 {
+                transform: translateX(-8rem) translateY(3rem) rotate(10deg);
+            }
+            .chai11 {
+                transform: translateY(-11rem) translateX(5rem) rotate(-5deg);
+            }
+            .freshchai {
+                transform: translateX(0) translateY(-14rem) rotate(0);
+            }
+        }
+        article {
+            display: flex;
+            place-items: inherit;
+            .chai-info {
+                width: 100vw;
+                transform: translateY(-12rem);
+                font-size: 1.8rem;
+                padding: 0 .66rem;
+                text-align: center;
+                word-break: break-word;
+            }
+        }
+        
+    }
+  }
+  
 

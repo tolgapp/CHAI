@@ -23,7 +23,8 @@
 }
 
 
-/* html {
+html {
+  background-attachment: fixed;
   background-image: url("../public/images/background-brown.jpeg");
-  background-size: cover;
-} */
+  background-size:cover;
+}

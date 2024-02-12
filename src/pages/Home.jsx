@@ -15,6 +15,9 @@ const Home = () => {
   // FIXME: Style the text better next to the 3 pics or center the pics with greater height and add the text below the pics.
 
 
+  // ***For Mobile Styling***                                   @media only screen and (max-width: 600px) { }
+
+
   return (
     <div className="home">
       <Navbar />
