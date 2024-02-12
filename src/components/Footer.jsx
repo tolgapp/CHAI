@@ -1,4 +1,4 @@
-import "../sass/Footer.scss";
+import "../scss/Footer.scss";
 import links from "../assets/links.json"
 import FooterLinks from "../components/FooterLinks.jsx"
 

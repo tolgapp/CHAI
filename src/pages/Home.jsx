@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import HomeData from "../components/HomeData";
 import Navbar from "../components/Navbar";
 import Info from "../components/Info";
-import "../sass/Home.scss";
+import "../scss/Home.scss";
 
 const Home = () => {
   // TODO: Mobile Styling 1st!

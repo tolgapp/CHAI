@@ -41,7 +41,7 @@
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 1120px) {
   .info {
     display: flex;
     justify-content: space-between;
@@ -87,7 +87,7 @@
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 500px) {
   .info {
     flex-direction: column;
     justify-content: flex-start;

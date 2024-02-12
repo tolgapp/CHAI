@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../sass/Navbar.scss";
+import "../scss/Navbar.scss";
 import MobileNav from "./MobileNav";
 
 const Navbar = () => {

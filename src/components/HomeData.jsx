@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../sass/HomeData.scss";
+import "../scss/HomeData.scss";
 
 const HomeData = () => {
   const data = [

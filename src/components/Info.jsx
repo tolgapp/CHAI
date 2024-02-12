@@ -1,4 +1,4 @@
-import "../sass/Info.scss";
+import "../scss/Info.scss";
 
 const Info = () => {
 
