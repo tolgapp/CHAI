@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <div className="footer">
       <FooterLinks header={"Info & Help"} links={links}/>
-      <FooterLinks header={"Other Data"} links={links}/>
-      <FooterLinks header={"Other Data"} links={links}/>
-      <FooterLinks header={"Other Data"} links={links}/>
+      <FooterLinks header={"Chai World"} links={links}/>
+      <FooterLinks header={"Info & Help"} links={links}/>
+      <FooterLinks header={"Info & Help"} links={links}/>
     </div>
   )
 }

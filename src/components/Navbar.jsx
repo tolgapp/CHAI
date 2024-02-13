@@ -14,6 +14,7 @@ const Navbar = () => {
       <div className="nav-links">
         <Link to={"/home"}>HOME</Link>
         <Link to={"/info"}>WHY CHAI?</Link>
+        <img className="shoppingcart" src="/images/shoppingcart.png" alt="shopping cart icon" />
       </div>
     </div>
     <MobileNav />
