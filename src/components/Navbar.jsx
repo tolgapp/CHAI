@@ -13,8 +13,7 @@ const Navbar = () => {
       </div> */}
       <div className="nav-links">
         <Link to={"/home"}>HOME</Link>
-        <Link to={"/info"}>INFO</Link>
-        <Link to={"/"}>WHY CHAI?</Link>
+        <Link to={"/info"}>WHY CHAI?</Link>
       </div>
     </div>
     <MobileNav />

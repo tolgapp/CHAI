@@ -1,0 +1,88 @@
+.infoPageDiv {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    margin-top: 5rem;
+    font-size: 3.6rem;
+  }
+  .what-is-chai {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
+    section {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      place-items: center;
+      h2 {
+        font-size: 3rem;
+        text-align: left;
+        width: 60%;
+      }
+      p {
+        font-size: 1.6rem;
+        word-break: keep-all;
+        width: 60%;
+        text-align: left;
+      }
+    }
+    img {
+      height: 30rem;
+      border-radius: 1.1rem;
+      margin-right: 5rem;
+    }
+  }
+  .benefits {
+    display: flex;
+    flex-direction: row;
+    margin: 6rem 0;
+    img {
+      height: 20rem;
+      border-radius: 1.1rem;
+      margin-left: 5rem;
+    }
+    section {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      h2 {
+        font-size: 2.4rem;
+        margin-right: 5rem;
+        text-align: right;
+      }
+      p {
+        font-size: 1.6rem;
+        word-break: keep-all;
+        text-align: right;
+        margin-right: 5rem;
+      }
+    }
+  }
+  .howtomakechai {
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+    margin: 8rem 0;
+    ol {
+      margin-left: 5rem;
+      h3 {
+        font-size: 2rem;
+        text-align: left;
+      }
+      p {
+        font-size: 1.8rem;
+        text-align: left;
+      }
+      li {
+        font-size: 1.3rem;
+        text-align: left;
+        padding-top: 1rem;
+        margin-left: 1.3rem;
+      }
+    }
+    img {
+      height: 40rem;
+      border-radius: 1.1rem;
+    }
+  }
+}
