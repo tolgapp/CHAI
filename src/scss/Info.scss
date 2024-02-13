@@ -87,7 +87,7 @@
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 890px) {
   .info {
     flex-direction: column;
     justify-content: flex-start;
@@ -98,23 +98,26 @@
       place-items: center;
       transform: translateX(0);
       .chai12 {
+        height: 15rem;
         transform: translateX(-8rem) translateY(3rem) rotate(10deg);
       }
       .chai11 {
+        height: 10rem;
         transform: translateY(-11rem) translateX(5rem) rotate(-5deg);
       }
       .freshchai {
+        height: 15rem;
         transform: translateX(0) translateY(-14rem) rotate(0);
       }
     }
     article {
       display: flex;
-      flex-direction: column;
-      place-items: center;
+      transform: translateX(0) translateY(-10rem);
+      height: 0;
       .chai-info {
-        font-size: 1.2rem;
-        word-break: break-all;
-        transform: translateX(3rem);
+        font-size: 2rem;
+        text-align: center;
+        word-break: break-word;
       }
     }
   }

@@ -25,7 +25,7 @@
   .chai-latte {
     z-index: 0;
     height: 30rem;
-    margin-left: -10rem;
+    margin-left: -4rem;
     animation: mover 1.4s infinite alternate;
     transform: rotate(-2deg);
   }
@@ -39,7 +39,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 890px) {
   .HomeData {
     margin: 30vh 0;
     .image-container {

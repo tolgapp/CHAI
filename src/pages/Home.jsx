@@ -15,7 +15,9 @@ const Home = () => {
   // FIXME: Icons instead of Text if Mobile (Mobile Nav)
 
   // ***For Mobile Styling***                                   @media only screen and (max-width: 600px) { }
+  // *** For iPad / Tablets ***                               @media only screen and (min-width: 601px) and (max-width: { }
 
+  
   return (
     <div className="home">
       <Navbar />

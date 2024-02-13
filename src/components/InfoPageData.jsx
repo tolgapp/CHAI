@@ -33,7 +33,7 @@ const InfoPageData = () => {
       </div>
       <section className="howtomakechai">
         <ol>
-          <h3>How to make Chai Tea</h3>
+          <h3>How to make Chai Tea?</h3>
           <p>Ingredients</p>
           {data.map((elt) => {
             return <li key={elt.id}>{elt.text}</li>;
