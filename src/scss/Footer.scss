@@ -1,5 +1,6 @@
 .footer {
   display: flex;
+  justify-content: center;
   background-color: antiquewhite;
   border-top-left-radius: 0.9rem;
   border-top-right-radius: 0.9rem;
@@ -24,6 +25,8 @@
 
 @media only screen and (max-width: 890px) {
   .footer {
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 3rem;
