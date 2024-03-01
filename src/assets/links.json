@@ -5,16 +5,49 @@
     },
     {
       "id": 2,
-      "text": "Returns"
+      "text": "Differences"
     },
     {
       "id": 3,
+      "text": "Healthy?"
+    },
+    {
+      "id": 4,
+      "text": "History"
+    },
+    {
+      "id": 5,
+      "text": "Contact?"
+    },
+    {
+      "id": 6,
+      "text": "Returns"
+    },
+    {
+      "id": 7,
       "text": "Track my order"
      
     },
     {
-      "id": 4,
+      "id": 8,
       "text": "Cookie Settings"
+    },
+    {
+      "id": 9,
+      "text": "Chai Countries"
+    },
+    {
+      "id": 10,
+      "text": "Enviroment"
+    },
+    {
+      "id": 11,
+      "text": "Organic & Fairtrade"
+     
+    },
+    {
+      "id": 12,
+      "text": "Where to buy?"
     }
   ]
   

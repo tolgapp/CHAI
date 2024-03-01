@@ -1,0 +1,17 @@
+.footerlogo {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-left: 6rem;
+    margin-top: 3rem;
+    h1 {
+        font-size: 2.4rem;
+        text-align: right;
+        color: rgb(170, 103, 37);
+    }
+    
+    p {
+        font-size: 1.2rem;
+        color: black;
+    }
+}
