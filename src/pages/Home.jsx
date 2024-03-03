@@ -2,6 +2,7 @@ import Footer from "../components/Footer";
 import HomeData from "../components/HomeData";
 import Navbar from "../components/Navbar";
 import Info from "../components/Info";
+import InfoSecond from "../components/InfoSecond";
 import "../scss/Home.scss";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <Navbar />
       <HomeData />
       <Info />
+      <InfoSecond />
       <Footer />
     </div>
   );
