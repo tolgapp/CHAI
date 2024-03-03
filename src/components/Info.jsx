@@ -22,7 +22,7 @@ const Info = () => {
         />
       </section>
       <article>
-      <h3 className="chai-info" style={{ display: showText ? "block" : "none" }}>
+      <h3 className="chai-info">
           Enjoy a chai latte - our blend of black tea with aromatic spices made
           with steamed milk and honey.
         </h3>
