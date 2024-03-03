@@ -4,7 +4,8 @@ const FooterLogo = () => {
   return (
     <section className="footerlogo">
       <h1>CHAI.</h1>
-      <p>Tea is the elixir of life. - Lao Tzu</p>
+      <p>Tea is a religion of the art of life.</p>
+      <p className="author">- Okakura Kakuzo</p>
     </section>
   );
 };
