@@ -1,8 +1,9 @@
 .footerlogo {
     display: flex;
     flex-direction: column;
-    margin-left: 6rem;
+    margin-left: 5rem;
     margin-top: 3rem;
+    margin-right: 1.4rem;
     h1 {
         font-size: 2.4rem;
         text-align: right;
@@ -35,8 +36,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 7rem;
-        margin-left: 0;
+        margin: 0 0 7rem 0;
         h1 {
             font-size: 2.4rem;
             color: rgb(170, 103, 37);
