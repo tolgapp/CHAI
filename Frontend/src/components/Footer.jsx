@@ -1,6 +1,6 @@
 import "../scss/Footer.scss";
 import links from "../assets/links.json";
-import FooterLinks from "../components/FooterLinks.jsx";
+import FooterLinks from "./FooterLinks.jsx";
 import FooterLogo from "./FooterLogo.jsx";
 
 const Footer = () => {
