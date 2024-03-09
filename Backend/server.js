@@ -11,8 +11,7 @@ app.listen(port, () => {
 });
 
 app.get("/", (req, res, next) => {
-  res.send("<h1>Hello World!</h1>")
-  next();
+  res.send(`<h1>Hello World!</h1> <a href="/message">Message</a>`);
 });
 
 app.get("/message", (req, res, next) => {

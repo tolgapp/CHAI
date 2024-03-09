@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "../scss/Navbar.scss";
 
 const MobileNav = () => {
+
   return (
     <div className="mobile-nav">
       <Link to={"/home"} className="mobile-home">
