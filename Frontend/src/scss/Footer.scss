@@ -7,14 +7,16 @@
   .footerDiv {
     display: flex;
     flex-direction: column;
-    place-items: center;
-    text-align: left;
-    padding: 3rem;
+    padding: 2.9rem;
     .footerHeader {
+      display: flex;
+      place-items: center;
       font-size: 1.4rem;
+      width: 100%;
       color: #85522cd0;
     }
-    a {
+    .footerLinks {
+      text-align: left;
       padding-top: 2rem;
       text-decoration: none;
       color: black;
@@ -34,6 +36,7 @@
       flex-wrap: wrap;
       justify-content: center;
       padding: 2.35rem;
+      place-items: center;
     }
   }
 }

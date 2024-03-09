@@ -81,6 +81,11 @@
     .chai-nav {
       color: whitesmoke;
     }
+    .logo-fixed {
+      top: 0.5rem;
+      position: fixed;
+      transform: translateX(-11rem);
+    }
     .searchbar {
       display: none;
     }
