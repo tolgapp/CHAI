@@ -22,9 +22,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 html {
   background-attachment: fixed;
   background-image: url("/images/background-brown.jpeg");
-  background-size:cover;
+  background-size: cover;
 }

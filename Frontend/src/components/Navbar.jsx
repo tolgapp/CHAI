@@ -26,6 +26,7 @@ const Navbar = () => {
         <div className="nav-links">
           <Link to={"/home"}>HOME</Link>
           <Link to={"/info"}>WHY CHAI?</Link>
+          <Link to={"/shop"}>SHOP</Link>
           <img
             className="shoppingcart"
             src="/images/shoppingBag.png"

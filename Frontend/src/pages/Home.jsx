@@ -6,7 +6,6 @@ import InfoSecond from "../components/InfoSecond";
 import "../scss/Home.scss";
 
 const Home = () => {
-
   return (
     <div className="home">
       <Navbar />
