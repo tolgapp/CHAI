@@ -5,7 +5,7 @@ const InfoSecond = () => {
     <div className="info-second">
       <article>
         <h3 className="header-second">
-        <strong>CHAI.</strong> in Munich offers 10+ delicious chai & chai latte flavors, alongside satisfying vegetarian & non-vegetarian snacks.
+        <strong>CHAI.</strong> in Munich offers 10+ delicious chai & chai latte flavors, coffees & alongside satisfying vegetarian & non-vegetarian snacks.
         </h3>
         <p>Service: </p>
         <ul>
