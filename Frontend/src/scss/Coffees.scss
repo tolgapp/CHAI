@@ -1,3 +1,63 @@
-.coffees {
-    margin: 3rem;
+.coffee-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem 0.8rem;
+  justify-content: center;
+}
+
+.coffee-container {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: center;
+  border: 1px solid whitesmoke;
+  width: 30rem;
+  margin: 0.4rem;
+  border-radius: 1.8rem;
+  .coffee-image {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    img {
+      height: 17rem;
+    }
+    .coffee-name {
+      font-size: 1.6rem;
+      font-family: openSans-M;
+    }
+  }
+  .coffee-info {
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+    .coffee-price {
+      background-color: black;
+      padding: 1rem;
+      width: 10rem;
+      border-radius: 1rem;
+    }
+    .coffee-to-cart {
+      padding: 1rem;
+      background-color: orange;
+      border-radius: 1.2rem;
+      margin: 1rem;
+    }
+    .coffee-to-cart:hover {
+      background-color: #f4c430;
+      color: darkslategrey;
+      cursor: pointer;
+    }
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .coffee-container {
+    width: 23rem;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1025px) {
+  .coffee-container {
+    width: 28rem; 
+  }
 }

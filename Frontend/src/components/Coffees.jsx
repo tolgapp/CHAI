@@ -1,13 +1,18 @@
-import Footer from "./Footer";
-import Navbar from "./Navbar";
 import "../scss/Coffees.scss";
 
-const Coffees = () => {
+const Coffees = ({ coffee }) => {
   return (
     <>
-      <Navbar />
-      <div className="coffees">Coffees</div>
-      <Footer />
+      <div className="coffee-container">
+        <section className="coffee-image">
+          <img src={coffee.image_url} alt={coffee.description} />
+          <p className="coffee-name">{coffee.name}</p>
+        </section>
+        <section className="coffee-info">
+          <h3 className="coffee-price">{coffee.price} €</h3>
+          <a className="coffee-to-cart">Add to cart</a>
+        </section>
+      </div>
     </>
   );
 };

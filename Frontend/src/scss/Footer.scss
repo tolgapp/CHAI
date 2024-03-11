@@ -24,6 +24,12 @@
   }
 }
 
+@media only screen and (max-width: 1050px) {
+  .footerHeader {
+    width: max-content;
+  }
+}
+
 @media only screen and (max-width: 890px) {
   .footer {
     display: flex;

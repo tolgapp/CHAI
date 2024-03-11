@@ -1,21 +1,32 @@
 import express from "express";
 import cors from "cors";
+import coffee from "../Backend/assets/coffees.json" assert { type: "json" };
 
 const app = express();
 app.use(cors());
 
 const port = 3000;
 
+app.get('/', (request, response) => {
+  response.send('Testing Hello World!')
+})
+
+app.get('/message', (request, response) => {
+  response.send('Testing second message')
+})
+
 app.listen(port, () => {
-  console.log("Listening");
+  console.log(`Test app listening at http://localhost:${port}`)
+})
+
+app.get("/coffee", (request, response) => {
+  response.status(200).json(coffee);
 });
 
-app.get("/", (req, res, next) => {
-  res.send(`<h1>Hello World!</h1> <a href="/message">Message</a>`);
+app.post("/coffee", (request, response) => {
+  todos.push(request.body);
+  response.status(201).json({ msg: "Coffees added" });
 });
 
-app.get("/message", (req, res, next) => {
-  res.json({ message: "Hello from server.." });
-});
 
 export default app;

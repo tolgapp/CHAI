@@ -27,3 +27,8 @@ html {
   background-image: url("/images/background-brown.jpeg");
   background-size: cover;
 }
+
+@font-face {
+  font-family: "openSans-M";
+  src: url("./assets/fonts/OpenSans-Medium.ttf");
+}
