@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   justify-content: center;
-  background-color: antiquewhite;
+  background-color: #FFC26F;
   border-top-left-radius: 0.9rem;
   border-top-right-radius: 0.9rem;
   .footerDiv {
@@ -12,7 +12,7 @@
       display: flex;
       place-items: center;
       font-size: 1.4rem;
-      color: #85522cd0;
+      color: #000;
     }
     .footerLinks {
       text-align: left;
