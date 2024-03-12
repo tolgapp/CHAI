@@ -8,13 +8,10 @@ const Shop = () => {
   const [coffee, setCoffee] = useState([]);
   const [loading, setLoading] = useState(true);
 
-console.log("Out", loading)
-
   useEffect(() => {
     fetch("https://fake-coffee-api.vercel.app/api")
       .then((res) => res.json())
       .then((data) => setCoffee(data));
-      console.log("IN", loading);
     setLoading(false);
   }, []);
 
@@ -22,7 +19,7 @@ console.log("Out", loading)
     <div>
       <Navbar />
       {loading ? (
-        <div className="loading">Loading ..</div>
+        <div className="loading">Loading</div>
       ) : (
         <section className="coffee-section">
           {coffee.map((elt) => {
