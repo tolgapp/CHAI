@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../scss/Coffees.scss";
 
 const Coffees = ({ coffee }) => {
@@ -10,7 +11,13 @@ const Coffees = ({ coffee }) => {
         </section>
         <section className="coffee-info">
           <h3 className="coffee-price">{coffee.price} €</h3>
-          <a className="coffee-to-cart">Add to cart</a>
+          <Link
+            to={`/shop/${coffee.name}`}
+            state={coffee}
+            className="coffee-to-cart"
+          >
+            More info
+          </Link>
         </section>
       </div>
     </>

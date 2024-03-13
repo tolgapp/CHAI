@@ -8,12 +8,14 @@ const Shop = () => {
   const [coffee, setCoffee] = useState([]);
   const [loading, setLoading] = useState(true);
 
+
   useEffect(() => {
     fetch("https://fake-coffee-api.vercel.app/api")
       .then((res) => res.json())
       .then((data) => setCoffee(data));
     setLoading(false);
   }, []);
+
 
   return (
     <div>
