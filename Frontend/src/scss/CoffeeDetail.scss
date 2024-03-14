@@ -7,8 +7,9 @@
   height: 60rem;
   padding: 0 3rem;
   img {
+    width: 50rem;
     margin: 0 auto;
-    filter: drop-shadow(.5rem .7rem .4rem black)
+    filter: drop-shadow(0.5rem 0.7rem 0.4rem black);
   }
   .detailed-section {
     display: flex;
@@ -30,7 +31,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
     p {
       font-size: 1.3rem;
       background-color: #ffa447;
@@ -38,9 +39,93 @@
       border-radius: 1.1rem;
       font-weight: 700;
       span {
-        padding: 0 .3rem;
+        padding: 0 0.3rem;
         color: #424141;
         font-weight: 900;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 970px) and (max-width: 1028px) {
+  .detailed {
+    img {
+      width: 45rem;
+    }
+    .more-info {
+      margin: 1rem 0;
+      p {
+        span {
+          padding: 0 0.1rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 842px) and (max-width: 969px) {
+  .detailed {
+    height: max-content;
+    img {
+      width: 40rem;
+    }
+    .more-info {
+      width: 86vw;
+      p {
+        font-size: 1.1rem;
+        padding: 0.76rem;
+        border-radius: 1.1rem;
+        font-weight: 600;
+        span {
+          padding: 0 0.1rem;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 841px) {
+  .detailed {
+    height: max-content;
+    img {
+      width: 100%;
+    }
+    .detailed-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: left;
+      font-family: OpenSans-M;
+      h3 {
+        font-size: 2rem;
+      }
+      h4 {
+        margin: 1rem 0;
+        font-size: 1.3rem;
+        word-break: break-all;
+      }
+    }
+    .more-info {
+      margin: .4rem 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      p {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        font-size: 1rem;
+        background-color: #ffa447;
+        padding: 1.1rem;
+        border-radius: 1.1rem;
+        font-weight: 700;
+        margin: 0.3rem 0;
+        span {
+          padding: 0 0.3rem;
+          color: #424141;
+          font-weight: 700;
+        }
       }
     }
   }

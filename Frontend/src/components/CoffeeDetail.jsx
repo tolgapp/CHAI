@@ -16,7 +16,6 @@ const CoffeeDetail = () => {
         <img
           src={image_url}
           alt={`${name} coffee`}
-          style={{ width: "50rem" }}
         />
         <section className="detailed-section">
           <h3>{name}</h3>

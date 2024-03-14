@@ -121,7 +121,6 @@
     .logo-fixed {
       top: 0.3rem;
       position: fixed;
-      // transform: translateX(-11rem);
     }
     .searchbar {
       display: none;
@@ -133,7 +132,7 @@
   .mobile-nav {
     position: fixed;
     z-index: 3;
-    width: 97vw;
+    width: 100%;
     display: flex;
     padding: 1.3rem;
     background-color: #884A39;
@@ -149,7 +148,7 @@
 
 @media only screen and (max-width: 390px) {
   .navbar {
-    width: 96vw;
+    width: 100%;
     padding: 0.2rem 2.3rem;
     justify-content: center;
     border: none;
@@ -170,7 +169,7 @@
   .mobile-nav {
     position: fixed;
     z-index: 3;
-    width: 100vw;
+    width: 100%;
     display: flex;
     padding: 1.3rem;
     background-color: #925b30;
@@ -180,9 +179,6 @@
     border-top-right-radius: 1rem;
     img {
       height: 2rem;
-    }
-    img:hover {
-      
     }
   }
 }
