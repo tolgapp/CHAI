@@ -12,26 +12,28 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [])
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <>
       <div className="navbar">
-        <h1 className={`chai-nav ${isSticky ? 'logo-fixed' : ''}`} ref={h1Ref}>
+        <h1 className={`chai-nav ${isSticky ? "logo-fixed" : ""}`} ref={h1Ref}>
           <Link to={"/"}>CHAI.</Link>
         </h1>
         <div className="nav-links">
           <Link to={"/home"}>HOME</Link>
           <Link to={"/info"}>WHY CHAI?</Link>
           <Link to={"/shop"}>SHOP</Link>
-          <img
-            className="shoppingcart"
-            src="/images/shoppingBag.png"
-            alt="shopping cart icon"
-          />
+          <Link to={"/checkout"}>
+            <img
+              className="shoppingcart"
+              src="/images/shoppingBag.png"
+              alt="shopping cart icon"
+            />
+          </Link>
         </div>
       </div>
       <MobileNav />

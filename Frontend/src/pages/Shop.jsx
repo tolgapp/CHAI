@@ -11,11 +11,12 @@ const Shop = () => {
 
   useEffect(() => {
     fetch("https://fake-coffee-api.vercel.app/api")
-      .then((res) => res.json())
-      .then((data) => setCoffee(data));
+    .then((res) => res.json())
+    .then((data) => setCoffee(data));
     setLoading(false);
   }, []);
 
+  console.log(coffee)
 
   return (
     <div>

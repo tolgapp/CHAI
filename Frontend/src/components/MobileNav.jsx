@@ -14,7 +14,7 @@ const MobileNav = () => {
       <Link to={"/shop"} className="mobile-why-chai">
         <img src="/images/shop.png" alt="shop icon" />
       </Link>
-      <Link to={"#"} className="mobile-why-chai">
+      <Link to={"/checkout"} className="mobile-why-chai">
         <img src="/images/shoppingBag.png" alt="shoppingcart icon" />
       </Link>
     </div>

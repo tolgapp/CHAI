@@ -24,8 +24,8 @@ const CoffeeDetail = () => {
         <div className="more-info">
           <p>Region: <span>{region}</span></p>
           <p>Roast Level: <span>{roast_level}</span></p>
-          <p>Weight: <span>{weight}</span></p>
-          <p>Price: <span>{price}</span></p>
+          <p>Weight: <span>{weight} g</span></p>
+          <p>Price: <span>{price} €</span></p>
         </div>
       </div>
       <Footer />
