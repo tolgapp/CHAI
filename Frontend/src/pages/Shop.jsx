@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Coffees from "../components/Coffees";
 import Footer from "../components/Footer";
+import axios from "axios";
 import "../scss/Coffees.scss";
 
 const Shop = () => {
@@ -10,13 +11,13 @@ const Shop = () => {
 
 
   useEffect(() => {
-    fetch("https://fake-coffee-api.vercel.app/api")
-    .then((res) => res.json())
-    .then((data) => setCoffee(data));
-    setLoading(false);
-  }, []);
 
-  console.log(coffee)
+    axios.get("https://fake-coffee-api.vercel.app/api")
+    .then((response) => setCoffee(response.data))
+    .catch(error => console.error(error));
+    setLoading(false);
+
+  }, []);
 
   return (
     <div>
