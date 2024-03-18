@@ -1,6 +1,6 @@
 # CHAI - Fuel your focus and creativity.
 
-![CHAI. - Get yours now!](frontend/public/images/readmechai.png)
+![CHAI. - Get yours now!](Frontend/public/images/readmechai.png)
 
 Download the needed dependencies:
 ```js
