@@ -50,6 +50,7 @@
       padding: 0;
       background-color: transparent;
     }
+    .searchicon,
     .shoppingcart {
       margin-left: 1rem;
       height: 1.7rem;
@@ -74,11 +75,17 @@
       top: 0.3rem;
       position: fixed;
     }
+    .search-container {
+      display: none;
+      }
     .searchbar {
       display: none;
     }
     .nav-links {
       display: none;
+      .searchicon {
+        display: none;
+      }
     }
   }
   .mobile-nav {
@@ -111,11 +118,17 @@
       top: 0.3rem;
       position: fixed;
     }
+    .search-container {
+      display: none;
+      }
     .searchbar {
       display: none;
     }
     .nav-links {
       display: none;
+      .searchicon {
+        display: none;
+      }
     }
   }
   .mobile-nav {
@@ -148,11 +161,17 @@
       top: 0.3rem;
       position: fixed;
     }
+    .search-container {
+      display: none;
+      }
     .searchbar {
       display: none;
     }
     .nav-links {
       display: none;
+      .searchicon {
+        display: none;
+      }
     }
   }
   .mobile-nav {

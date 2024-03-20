@@ -42,7 +42,7 @@ const Navbar = () => {
             <Link to={"/shop"}>SHOP</Link>
             <img
               onClick={handleOpen}
-              className="shoppingcart"
+              className="searchicon"
               src="/images/search.png"
               alt="shopping cart icon"
             />
