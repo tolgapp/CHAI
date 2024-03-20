@@ -1,0 +1,15 @@
+#search {
+  background-color: rgba(255, 255, 255, 0.033);
+  padding: 0.52rem;
+  width: 15rem;
+  border: 1px solid rgba(255, 255, 255, 0.695);
+  border-radius: 0.7rem;
+  margin: 2.18rem;
+}
+#search:focus {
+  background-color: rgba(192, 192, 192, 0.117);
+}
+#search::placeholder {
+  color: rgba(255, 255, 255, 0.783);
+  transform: translateX(.5rem);
+}

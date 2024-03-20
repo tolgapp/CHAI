@@ -23,27 +23,12 @@
       color: whitesmoke;
     }
   }
-  .searchbar {
+  .search-container {
     display: flex;
-    .input {
-      background-color: #73543d3d;
-      border: none;
-      border-top-left-radius: 0.6rem;
-      border-bottom-left-radius: 0.6rem;
-      padding: 0.5rem;
-      font-size: 1.4rem;
-      color: whitesmoke;
-    }
-    ::-webkit-input-placeholder {
-      color: rgba(245, 245, 245, 0.85);
-    }
-    .searchbutton {
-      padding: 1rem;
-      background-color: #73543dd0;
-      color: whitesmoke;
-      border-top-right-radius: 0.6rem;
-      border-bottom-right-radius: 0.6rem;
-      border: none;
+    place-items: center;
+    .x-icon {
+      transform: translateX(-2rem);
+      height: 2.2rem;
     }
   }
   .nav-links {

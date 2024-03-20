@@ -2,9 +2,11 @@ import { Link } from "react-router-dom";
 import "../scss/Navbar.scss";
 import MobileNav from "./MobileNav";
 import { useEffect, useRef, useState } from "react";
+import { useSearchContext } from "../context/SearchContext";
+import Search from "../components/Search";
 
 const Navbar = () => {
-  const h1Ref = useRef(null);
+  const { open, handleOpen } = useSearchContext();
   const [isSticky, setIsSticky] = useState(false);
 
   const handleScroll = () => {
@@ -20,21 +22,39 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar">
-        <h1 className={`chai-nav ${isSticky ? "logo-fixed" : ""}`} ref={h1Ref}>
+        <h1 className={`chai-nav ${isSticky ? "logo-fixed" : ""}`}>
           <Link to={"/"}>CHAI.</Link>
         </h1>
-        <div className="nav-links">
-          <Link to={"/home"}>HOME</Link>
-          <Link to={"/info"}>WHY CHAI?</Link>
-          <Link to={"/shop"}>SHOP</Link>
-          <Link to={"/checkout"}>
+        {open ? (
+          <div className="search-container">
+            <Search />
             <img
-              className="shoppingcart"
-              src="/images/shoppingBag.png"
+              onClick={handleOpen}
+              className="x-icon"
+              src="/images/x.png"
               alt="shopping cart icon"
             />
-          </Link>
-        </div>
+          </div>
+        ) : (
+          <div className="nav-links">
+            <Link to={"/home"}>HOME</Link>
+            <Link to={"/info"}>WHY CHAI?</Link>
+            <Link to={"/shop"}>SHOP</Link>
+            <img
+              onClick={handleOpen}
+              className="shoppingcart"
+              src="/images/search.png"
+              alt="shopping cart icon"
+            />
+            <Link to={"/checkout"}>
+              <img
+                className="shoppingcart"
+                src="/images/shoppingBag.png"
+                alt="shopping cart icon"
+              />
+            </Link>
+          </div>
+        )}
       </div>
       <MobileNav />
     </>
