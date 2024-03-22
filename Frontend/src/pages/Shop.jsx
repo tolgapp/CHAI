@@ -10,7 +10,7 @@ const Shop = () => {
   const [coffee, setCoffee] = useState([]);
   const [loading, setLoading] = useState(true);
   const { text } = useSearchContext();
-  
+
   useEffect(() => {
     console.log("Fetching!");
     axios
@@ -30,7 +30,6 @@ const Shop = () => {
     return nameLower.includes(textLower);
   });
 
-  
   return (
     <div>
       <Navbar />

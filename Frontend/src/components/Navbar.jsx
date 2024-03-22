@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../scss/Navbar.scss";
 import MobileNav from "./MobileNav";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { useSearchContext } from "../context/SearchContext";
 import Search from "../components/Search";
 
@@ -46,7 +46,7 @@ const Navbar = () => {
               src="/images/search.png"
               alt="shopping cart icon"
             />
-            <Link to={"/checkout"}>
+            <Link to={"#"}>
               <img
                 className="shoppingcart"
                 src="/images/shoppingBag.png"
