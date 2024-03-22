@@ -4,10 +4,20 @@ import MobileNav from "./MobileNav";
 import { useEffect, useState } from "react";
 import { useSearchContext } from "../context/SearchContext";
 import Search from "../components/Search";
+import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const { open, handleOpen } = useSearchContext();
   const [isSticky, setIsSticky] = useState(false);
+  const [path, setPath] = useState(false);
+
+  const location = useLocation('');
+
+  useEffect(() => {
+    if (location.pathname === "/shop") {
+      setPath(true);
+    }
+  }, []);
 
   const handleScroll = () => {
     setIsSticky(window.scrollY > 50);
@@ -40,12 +50,12 @@ const Navbar = () => {
             <Link to={"/home"}>HOME</Link>
             <Link to={"/info"}>WHY CHAI?</Link>
             <Link to={"/shop"}>SHOP</Link>
-            <img
+            {path ? <img
               onClick={handleOpen}
               className="searchicon"
               src="/images/search.png"
               alt="shopping cart icon"
-            />
+            /> : null}
             <Link to={"#"}>
               <img
                 className="shoppingcart"
